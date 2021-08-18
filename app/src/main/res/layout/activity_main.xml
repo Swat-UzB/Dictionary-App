@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <EditText
+        android:id="@+id/search_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/margin_eight"
@@ -20,4 +21,12 @@
         android:padding="@dimen/padding_eight"
         android:textSize="@dimen/text_size_16"
         android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/find_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_eight"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/button_text" />
 </LinearLayout>

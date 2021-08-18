@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Dictionary App</string>
     <string name="edit_text_string">search your word</string>
+    <string name="button_text">FIND</string>
+    <string name="str_back_description">click to back</string>
+    <string name="tools_definition">My definition</string>
 </resources>
