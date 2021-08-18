@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Dictionary App</string>
+    <string name="edit_text_string">search your word</string>
+</resources>
