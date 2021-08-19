@@ -9,8 +9,8 @@
     <ImageView
         android:id="@+id/back_image_view"
         android:layout_width="wrap_content"
-        android:background="@drawable/ic_baseline_arrow_back_24"
         android:layout_height="wrap_content"
+        android:background="@drawable/ic_baseline_arrow_back_24"
         android:contentDescription="@string/str_back_description" />
 
     <TextView
@@ -19,6 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_margin="@dimen/margin_eight"
+        android:gravity="center"
         android:textColor="@color/black"
         android:textSize="@dimen/text_size_16"
         tools:text="@string/tools_definition" />
